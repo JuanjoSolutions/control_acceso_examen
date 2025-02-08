@@ -1,7 +1,5 @@
 package com.examen.control_acceso_examen;
 
-import java.util.concurrent.Semaphore;
-
 public class Visitor implements Runnable {
     private final int code;
     private final EntranceMonitor entranceMonitor;

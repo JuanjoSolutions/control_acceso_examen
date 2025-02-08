@@ -6,15 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @SpringBootApplication
-public class ControlAccesoParqueApplication implements CommandLineRunner {
+public class ControlAccesoExamenApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(ControlAccesoParqueApplication.class, args);
+        SpringApplication.run(ControlAccesoExamenApplication.class, args);
     }
 
     @Override
